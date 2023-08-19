@@ -52,14 +52,23 @@ Project outside of course scope at (BSc) Machine Learning and Data Science educa
 ```
 
 ## Replication not tested
-The code has not been tested on another machine. The code was developed on a machine with the following specifications:
+The code has only been tested on machines with below specifications. The replication-process of the project has not been tested.
+### Machine specifications (local)
 - OS: Ubuntu 23.04
 - CPU: Intel i9-8950HK
 - GPU: NVIDIA Quadro P3200M
 - RAM: 32 GB
 - Storage: 1 TB SSD
 - CUDA: 11.8
--
+
+### Machine specifications (GPU cluster: Slurm)
+- GPU: NVIDIA® RTX™ A6000
+- CPU: 8x Unspecified
+- RAM: 64 GB
+
+## License
+
+
 
 ## Data
 The data is located in the `data` folder. The data consists of 2 different types of data: Shapefiles (`.dbf`, `.prj`, `.sbn`, `.sbx`, `.shp`, `.shx`, `.xml`) and Satellite images (`.tif`). The shapefiles are used to create the masks for the satellite images. Windows of the satellite images are extracted and the corresponding masks are created.
