@@ -1,0 +1,22 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Automatic-Satelitte-Island-Discovery
+message: 'If you use this software, please cite it as below.'
+type: software
+authors:
+  - given-names: Johannes Brøns
+    family-names: Christensen
+    email: swd122@ku.dk
+    affiliation: Department of Computer Science
+    orcid: 'https://orcid.org/0009-0009-7220-6853'
+repository-code: >-
+  https://github.com/JohannesBroens/Automatic-Satelitte-Island-Discovery
+abstract: >-
+  Source code for project outside of course scope at (BSc)
+  Machine Learning and Data Science education programme at
+  the Department of Computer Science at University of
+  Copenhagen. 
+license: MIT
+date-released: '2023-08-19'
