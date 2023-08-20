@@ -30,6 +30,9 @@ Project outside of course scope at (BSc) Machine Learning and Data Science educa
 ├── src
 │   ├── UNet.py
 │   ├── preds_analysis.ipynb
+|   ├── mosaic_creation_testing
+|   |   ├── mosaic_creation_testing.ipynb
+|   |   ├── mosaic_creation_testing.py
 ├── output
 │   ├── figs
 │   │   ├── *.png
@@ -80,9 +83,10 @@ The data is located in the `data` folder. The data consists of 2 different types
   - Island data
 
 ## Source code
-The source code is located in the `src` folder. The source code consists of 2 files:
+The source code is located in the `src` folder. The source code consists of 2 files and 1 folder:
 - `UNet.py`: The UNet model used for the project.
 - `preds_analysis.ipynb`: The notebook used for analysing the predictions.
+- `mosaic_creation_testing`: The folder containing the code used for making mosaics from non-orth-rectified tiles (`.py` and `.ipynb`). These mosaics where not used in the project, as the orth-rectified satellite images where used instead.
 
 ## Output
 The output is located in the `output` folder. The output consists of 4 different types of data:
