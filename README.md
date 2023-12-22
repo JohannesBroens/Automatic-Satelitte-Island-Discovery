@@ -70,8 +70,7 @@ The code has only been tested on machines with below specifications. The replica
 - RAM: 64 GB
 
 ## License
-
-
+MIT License
 
 ## Data
 The data is located in the `data` folder. The data consists of 2 different types of data: Shapefiles (`.dbf`, `.prj`, `.sbn`, `.sbx`, `.shp`, `.shx`, `.xml`) and Satellite images (`.tif`). The shapefiles are used to create the masks for the satellite images. Windows of the satellite images are extracted and the corresponding masks are created.
